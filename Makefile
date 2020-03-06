@@ -1,2 +1,2 @@
 db: main.c
-	$(CC) main.c -g -o db -Wall -Wextra -pedantic -std=c99
+	$(CC) main.c -g -o db -Wpointer-arith -pedantic -std=c99
